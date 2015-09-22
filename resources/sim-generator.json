@@ -1,0 +1,9 @@
+{
+	"simulation":{
+		"fitnessCalculation":"AvgFitnessCalculation",
+		"population":{
+			"size":100,
+			
+		}
+	}
+}

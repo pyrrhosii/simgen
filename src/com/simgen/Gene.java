@@ -5,11 +5,13 @@ public class Gene {
 	private String description;
 	private String value;
 	private double fitness;
+	private double position;
 	
-	public Gene(String desc, String value, double fitness){
+	public Gene(String desc, String value, double fitness, double position){
 		this.description = desc;
 		this.value = value;
 		this.fitness = fitness;
+		this.position = position;
 	}
 
 	public String getDescription() {
@@ -34,5 +36,13 @@ public class Gene {
 
 	public void setFitness(double fitness) {
 		this.fitness = fitness;
+	}
+
+	public double getPosition() {
+		return position;
+	}
+
+	public void setPosition(double position) {
+		this.position = position;
 	}
 }
